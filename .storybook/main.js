@@ -15,13 +15,4 @@ module.exports = {
         "@storybook/addon-controls",
         "@storybook/addon-actions",
     ],
-    typescript: {
-        check: true,
-        checkOptions: { tsconfig },
-        reactDocgen: 'react-docgen-typescript',
-        reactDocgenTypescriptOptions: {
-            shouldExtractLiteralValuesFromEnum: true,
-            tsconfigPath: tsconfig,
-        },
-    },
 };
